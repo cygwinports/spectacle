@@ -1,0 +1,10 @@
+inherit kf5
+
+NAME="spectacle"
+VERSION=16.08.3
+RELEASE=1
+CATEGORY="Graphics"
+SUMMARY="KDE screenshot tool"
+DESCRIPTION="Part of the KDE graphics suite"
+
+OBSOLETES="ksnapshot"
