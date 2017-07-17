@@ -1,0 +1,10 @@
+--- origsrc/spectacle-17.04.3/src/PlatformBackends/KWinWaylandImageGrabber.cpp	2017-07-09 17:44:02.000000000 -0500
++++ src/spectacle-17.04.3/src/PlatformBackends/KWinWaylandImageGrabber.cpp	2017-07-14 18:20:27.684831900 -0500
+@@ -16,6 +16,7 @@
+  *  Foundation, Inc., 51 Franklin Street, Fifth Floor,
+  *  Boston, MA 02110-1301, USA.
+  */
++#define _GNU_SOURCE // pipe2
+ #include "KWinWaylandImageGrabber.h"
+ 
+ #include <QDBusInterface>

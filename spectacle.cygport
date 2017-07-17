@@ -1,10 +1,12 @@
 inherit kf5
 
 NAME="spectacle"
-VERSION=16.08.3
+VERSION=17.04.3
 RELEASE=1
 CATEGORY="Graphics"
 SUMMARY="KDE screenshot tool"
 DESCRIPTION="Part of the KDE graphics suite"
+
+PATCH_URI="17.04-cygwin-ftm.patch"
 
 OBSOLETES="ksnapshot"
